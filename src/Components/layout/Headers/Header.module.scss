@@ -1,0 +1,109 @@
+#header {
+    margin: 70px 0;
+  .header__content {
+    display: flex;
+    justify-content: space-evenly;
+    .content__text {
+      width: 50%;
+      font-family: "Work Sans", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: #fff;
+
+      h1 {
+        font-size: 67px;
+        line-height: 73.7px;
+        font-weight: 600;
+      }
+
+      p {
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 400;
+      }
+
+      button {
+        width: 224px;
+        height: 60px;
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 20px;
+        padding: 0px, 50px, 0px, 50px;
+        gap: 12px;
+        background-color: #a259ff;
+        color: #fff;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .icon {
+          font-size: 20px;
+        }
+      }
+      .total {
+        display: flex;
+        gap: 80px;
+        
+        h4{
+            font-family: 'Space Mono', monospace;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 39.2px;
+        }
+      }
+    }
+    .content__img {
+      .card {
+        width: 510px;
+        height: 510px;
+
+        .img {
+          width: 510px;
+          height: 401px;
+          background-image: url("https://s3-alpha-sig.figma.com/img/8ac9/e0e3/bcf2d5507a81254146143702cd71f923?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Qv16mzaNWm4AWTLMO~eg-L1nycIXw4K97qDG8h24TK6fbU2sFqfTzF7saXOLgHekol4fQVCcL48XjS7oZRzWzxNRbiWdNoPTAzTVgFRITuNco2leiill94Kk6zOvm57p2djG0mtBIXXmf~ulb0yM19Z0OyKauJvZHajOIGZfPii74QBUwHc~ldfU6iHYyQZISM0gjWlPyqHLiUrXl8ESET4JLBvs6o8YKj5cMKVwNE6H1Aip3RSSd6AwXIDJlGQGMb2Yz3dnatC-LsUqwF3bzJhSZodleU-H9rjroa~4gk58ejUDhQXbKghh5ywp7WKuxwx6DFohAvFrX-cASo7eYQ__");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          border-radius: 20px 20px 0 0;
+        }
+        .underImg {
+          width: 470px;
+          height: 109px;
+          border-radius: 0 0 20px 20px;
+          background-color: #3b3b3b;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 10px;
+          padding: 0 20px;
+
+          font-family: "Work Sans", sans-serif;
+          h5 {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 30.8px;
+          }
+          .underImg__avatar {
+            display: flex;
+            gap: 10px;
+            img {
+              width: 24px;
+              height: 24px;
+              border-radius: 120px;
+            }
+            p {
+              font-weight: 300;
+              font-size: 16px;
+              line-height: 22.4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
